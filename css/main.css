@@ -1,6 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: "Crimsin Text", serif;
 }
 
 *, *::before, *::after {
@@ -13,16 +12,37 @@ body {
 
 article {}
 
-article header {}
+article header {
+  font-family: "Crimson Text", serif;
+}
 
-article h1 {}
+article h1 {
+  color: #222;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  line-height: 1.3rem;
+  font-family: "Crimson Text", serif;
+}
 
-article header p {}
+article header p {
+  color: #222;
+  font-family: "Crimson Text", serif;
+  padding: 1rem;
+  font-size: 1.125rem;
+  font-style: normal;
+  line-height: 1.3rem;
+}
 
-article p {}
+article p {
+}
 
 article ol {}
 
-blockquote {}
+blockquote {
+  color: #555;
+}
 
-.quote {}
+.quote {
+  color: #999;
+}
