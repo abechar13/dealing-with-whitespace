@@ -1,7 +1,28 @@
 html {
   box-sizing: border-box;
+  font-family: "Crimsin Text", serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+article {}
+
+article header {}
+
+article h1 {}
+
+article header p {}
+
+article p {}
+
+article ol {}
+
+blockquote {}
+
+.quote {}
